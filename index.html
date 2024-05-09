@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Freshness Detection</title>
+    <title>Upload Image</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,36 +17,34 @@
         }
         .container {
             text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
         h1 {
-            color: #333;
-        }
-        form {
-            margin-top: 20px;
+            margin-top: 0;
         }
         input[type="file"] {
+            margin-top: 10px;
             padding: 10px;
-            border: 2px solid #ccc;
-            border-radius: 5px;
-            outline: none;
-            font-size: 16px;
         }
         input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
+            margin-top: 10px;
             padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Food Freshness Detection</h1>
+        <h1>Upload an Image</h1>
         <form action="/upload" method="post" enctype="multipart/form-data">
-            <input type="file" name="image" accept="image/*" required>
+            <input type="file" name="file">
             <br>
             <input type="submit" value="Upload">
         </form>
