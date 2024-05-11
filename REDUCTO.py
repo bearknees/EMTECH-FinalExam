@@ -31,7 +31,7 @@ def analyze_image(image_file):
         return "Error Processing Image"
 
 st.markdown("<h1 style='text-align: center; color: white; background-color: #F08080; padding: 20px; border-radius: 20px;'>REDUCTO: A Food Freshness Detector Web App for your Fruits and Vegetables</h1>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: green; background-color: #ffffff; padding: 10px; font-size: 16px; border-radius: 20px;'>Upload an Image and Discover if Your Food is Fresh or Rotten!</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: green; background-color: #ffffff; padding: 10px; font-size: 16px; border-radius: 20px;'>Upload an image of a banana, orange, or cucumber to know if your food is fresh or rotten.</h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: green; background-color: #ffffff; padding: 10px; font-size: 16px; border-radius: 20px;'>Discover the Future of Data Visualization</h2>", unsafe_allow_html=True)
 st.image("https://www.graciemag.com/wp-content/uploads/2014/12/GM-White-Page-214.jpg", caption='Discover Freshness', use_column_width=True)
 st.markdown("<p style='text-align: center; background-color: #ffffff; padding: 10px; border-radius: 20px;'>Join us in exploring innovative ways to interpret data and gain insights.</p>", unsafe_allow_html=True)
